@@ -23,9 +23,18 @@ def multiply(a: Number, b: Number) -> Number:
 def divide(a: Number, b: Number) -> Number:
     """Divide a by b.
 
-    BUG: No check for division by zero!
+    Args:
+        a: The dividend.
+        b: The divisor.
+
+    Returns:
+        The result of a divided by b.
+
+    Raises:
+        ZeroDivisionError: If b is zero.
     """
-    # BUG: Should check if b == 0 and raise ZeroDivisionError with clear message
+    if b == 0:
+        raise ZeroDivisionError("Cannot divide by zero")
     return a / b
 
 
