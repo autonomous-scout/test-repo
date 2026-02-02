@@ -58,10 +58,9 @@ def truncate_string(text: str, max_length: int) -> str:
 def is_palindrome(text: str) -> bool:
     """Check if a string is a palindrome.
 
-    BUG: Case-sensitive comparison!
+    Performs case-insensitive comparison.
     """
-    # BUG: Should be case-insensitive
-    cleaned = "".join(c for c in text if c.isalnum())
+    cleaned = "".join(c for c in text if c.isalnum()).lower()
     return cleaned == cleaned[::-1]
 
 
