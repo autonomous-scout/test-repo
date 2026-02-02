@@ -1,0 +1,31 @@
+Defaulting to user installation because normal site-packages is not writeable
+Obtaining file:///workspace/repo
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: pytest>=7.0 in /usr/local/lib/python3.11/site-packages (from test-calculator==0.1.0) (9.0.2)
+Requirement already satisfied: pytest-cov>=4.0 in /usr/local/lib/python3.11/site-packages (from test-calculator==0.1.0) (7.0.0)
+Requirement already satisfied: iniconfig>=1.0.1 in /usr/local/lib/python3.11/site-packages (from pytest>=7.0->test-calculator==0.1.0) (2.3.0)
+Requirement already satisfied: packaging>=22 in /usr/local/lib/python3.11/site-packages (from pytest>=7.0->test-calculator==0.1.0) (26.0)
+Requirement already satisfied: pluggy<2,>=1.5 in /usr/local/lib/python3.11/site-packages (from pytest>=7.0->test-calculator==0.1.0) (1.6.0)
+Requirement already satisfied: pygments>=2.7.2 in /usr/local/lib/python3.11/site-packages (from pytest>=7.0->test-calculator==0.1.0) (2.19.2)
+Requirement already satisfied: coverage>=7.10.6 in /usr/local/lib/python3.11/site-packages (from coverage[toml]>=7.10.6->pytest-cov>=4.0->test-calculator==0.1.0) (7.13.2)
+Checking if build backend supports build_editable: started
+Checking if build backend supports build_editable: finished with status 'done'
+Building wheels for collected packages: test-calculator
+  Building editable for test-calculator (pyproject.toml): started
+  Building editable for test-calculator (pyproject.toml): finished with status 'done'
+  Created wheel for test-calculator: filename=test_calculator-0.1.0-0.editable-py3-none-any.whl size=1910 sha256=f089f15b306368380e7ec4d0ed3c9aeb188bb14fc5ad21eb5bbc31b04fc3ebb2
+  Stored in directory: /tmp/pip-ephem-wheel-cache-0f_fsvmn/wheels/c2/81/f8/80362a24bb9d696a6903cb9e14b079a7f9b71630cac4b95f94
+Successfully built test-calculator
+Installing collected packages: test-calculator
+  Attempting uninstall: test-calculator
+    Found existing installation: test-calculator 0.1.0
+    Uninstalling test-calculator-0.1.0:
+      Successfully uninstalled test-calculator-0.1.0
+Successfully installed test-calculator-0.1.0
